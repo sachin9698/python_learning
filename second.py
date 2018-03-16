@@ -1,3 +1,4 @@
+from searcht import *
 
 # print("hello world")
 # a,b,c=1,2,3
@@ -60,7 +61,8 @@
 # ****************************for loop*******************
 
 # a=[1,2,3,4,5,6,7,8,9,10]
-# for num in a:
+# for i,num in enumerate(a):
+#     print(i)
 #     print(num)
 
 # a=-3.6
@@ -72,8 +74,15 @@
 # # print(a.capitalize())
 # print(a.count(b))
 
-def printme(str):
-    print(str)
-    return
+# def printme(str):
+#     print(str)
+#     return
+#
+# printme("holla jjjj")
 
-printme("holla jjjj")
+l2=['hello','hola','namestey']
+# p=seracht.serach_k(l2,'hello') #st can be use in place of searcht
+p=serach_k(l2,'hello')
+print(p)
+print(test)
+# print(sys.path)
