@@ -35,7 +35,62 @@
 # c="how are you"
 # print("{} {} {}".format(a,b,c))
 
-a = 5
-b = 9
-setStr = 'The set is {{{}, {}}}.'.format(a, b)
-print(setStr)
+# a = 5
+# b = 9
+# setStr = 'The set is {{{}, {}}}.'.format(a, b)
+# print(setStr)
+
+
+# **************************sorting lists************************************
+
+
+# li=[9,7,8,6,4,5,1,3,2]
+# # sli=sorted(li)  #***************increasing order****************
+# sli=sorted(li, reverse=True)  #***************decreasing order****************
+# print("sorted list is :",sli)
+#
+# #li.sort()   #***************increasing order****************
+# li.sort(reverse=True)
+# print("orinal list is :",li)
+
+# li=[-6,-4,-5,1,2,3]
+# sli=sorted(li, key=abs)   #sorted according to absolute values
+# print(sli)
+
+
+# **************************sorting tuples************************************
+# tup=(9,7,8,6,4,5,1,3,2)
+# stup=sorted(tup)
+# print("sorted touple is :",stup)
+
+
+#***************************sorting dictionaries*****************************
+
+# di={"name":"sachin","branch":"btech","friend":"harsh","gf":"monica"}
+# sdi=sorted(di)
+# print("sorted dictionary is :",sdi)
+
+#********************sorting class objects***********************
+
+class Employee():
+    def __init__(self,name,age,salary):
+        self.age=age
+        self.name=name
+        self.salary=salary
+
+    def __repr__(self):
+        return "{}, {}, ${}".format(self.name,self.age,self.salary)
+
+
+e1=Employee("sachin", 21, 456321)
+e2=Employee("jp", 22, 23145)
+e3=Employee("ishant", 23, 12345)
+
+employ=[e1,e2,e3]
+
+def e_sort(emp):
+    return emp.salary
+
+semploy=sorted(employ, key=e_sort)
+
+print(semploy)
