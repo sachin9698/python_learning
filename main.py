@@ -1,3 +1,4 @@
+import os
 # *******************************slicing in list and strings*******************
 
 # mylist=[0,1,2,3,4,5,6,7,8,9]
@@ -72,25 +73,75 @@
 
 #********************sorting class objects***********************
 
-class Employee():
-    def __init__(self,name,age,salary):
-        self.age=age
-        self.name=name
-        self.salary=salary
+# class Employee():
+#     def __init__(self,name,age,salary):
+#         self.age=age
+#         self.name=name
+#         self.salary=salary
+#
+#     def __repr__(self):
+#         return "{}, {}, ${}".format(self.name,self.age,self.salary)
+#
+#
+# e1=Employee("sachin", 21, 456321)
+# e2=Employee("jp", 22, 23145)
+# e3=Employee("ishant", 23, 12345)
+#
+# employ=[e1,e2,e3]
+#
+# def e_sort(emp):
+#     return emp.salary
+#
+# semploy=sorted(employ, key=e_sort)
+#
+# print(semploy)
 
-    def __repr__(self):
-        return "{}, {}, ${}".format(self.name,self.age,self.salary)
+#************************input and rawinput***********************
+
+# str1 = input("enter your input :")
+# print(str1)
+
+# **************************read and write file*********************
+
+# fo = open("foo.txt", "wb")
+# print ("Name of the file: ", fo.name)
+# print ("Closed or not : ", fo.closed)
+# print ("Opening mode : ", fo.mode)
+
+#*********************writing to a file***********************
 
 
-e1=Employee("sachin", 21, 456321)
-e2=Employee("jp", 22, 23145)
-e3=Employee("ishant", 23, 12345)
+# fo = open("foo.txt", "w")                 # Open a file
+# str1="hello python !"
+# fo.write(str1);
+# fo.close()                                # Close opend file
 
-employ=[e1,e2,e3]
+#************************reading from a file**********************
 
-def e_sort(emp):
-    return emp.salary
+# fo=open("foo.txt","r+")
+# str1=fo.read(10);
+# print("read data from file :",str1)
+# pt=fo.tell();
+# print("current file position :",pt)
+# pos=fo.seek(0,0);
+# str2=fo.read(10);
+# print("again read data from file :",str2)
+# fo.close()
 
-semploy=sorted(employ, key=e_sort)
 
-print(semploy)
+#**************************renaming file**************************
+
+# os.rename("foo.txt","file1.txt")
+
+#**************************removing or deleting file*****************
+
+# os.remove("file1.txt")
+
+#*********************making directory*************************
+
+os.mkdir("newdir")                    #making new directory
+# os.rmdir("newdir")                      #removing directory
+
+#*******The getcwd() method displays the current working directory.********
+
+# os.getcwd()
