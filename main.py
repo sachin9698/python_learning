@@ -139,9 +139,73 @@ import os
 
 #*********************making directory*************************
 
-os.mkdir("newdir")                    #making new directory
+# os.mkdir("newdir")                    #making new directory
 # os.rmdir("newdir")                      #removing directory
 
 #*******The getcwd() method displays the current working directory.********
 
 # os.getcwd()
+
+#***********************first class functions****************************
+
+# def square(x):
+#     return x * x
+#
+# def cube(x):
+#     return x * x * x
+#
+# def my_map(fun, arglist):
+#     result = []
+#     for i in arglist:
+#         result.append(fun(i))
+#     return result
+#
+# out=my_map(cube,[1,2,3,4,5])
+#
+# print(out)
+
+
+#*******************************************************************
+
+# def logger(msg):
+#     def msg_logger():
+#         print("hello",msg)
+#     return msg_logger
+#
+# log=logger("sachin")
+# log()
+
+# def htmltag(tag):
+#     def text(txt):
+#         print("<{0}>{1}</{0}".format(tag,txt))
+#
+#     return text
+#
+# out=htmltag("h1")
+# out("header")
+
+
+#*******************************closure*********************************
+
+# def outer_fun():
+#     msg="hello"
+#     def inner_fun():
+#         print(msg)
+#
+#     return inner_fun
+#
+# out=outer_fun()
+# out()
+
+#****************************decorators**************************
+
+def deco_fun(orig_fun):
+    def wrap_fun():
+        return orig_fun()
+    return wrap_fun
+
+def display():
+    print("hello decorators")
+
+out=deco_fun(display)
+out()
