@@ -57,15 +57,15 @@
 
 #eg-3
 
-def pow(max=0):
-    n=0
-    while n<max:
-        yield 2**n
-        n=n+1
-
-a=pow(max=5)
-print(next(a))
-print(next(a))
-print(next(a))
-print(next(a))
-print(next(a))
+# def pow(max=0):
+#     n=0
+#     while n<max:
+#         yield 2**n
+#         n=n+1
+#
+# a=pow(max=5)
+# print(next(a))
+# print(next(a))
+# print(next(a))
+# print(next(a))
+# print(next(a))
