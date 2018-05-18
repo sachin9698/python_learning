@@ -1,33 +1,33 @@
 # from searcht import *
-#
-# # print("hello world")
+
+# print("hello world")
 # # a,b,c=1,2,3
 # # print(a)
 # # print(b)
 # # print(c)
-# 
+#
 # # *************************************list*********************************
 #
-# # list=[1,2,"hello",3,"wow",12.4]
-# # list2=[9,10]
+# list=[1,2,"hello",3,"wow",12.4]
+# list2=[9,10]
 # # print(list)
 # # print(list[0])
 # # print(list[2:4])
-# # print(list[2:])
-# # print(list * 2)
-# # print(list + list2)
+# print(list[2:])
+# print(list * 2)
+# print(list + list2)
 #
 # # **********************************dictionary***********************************
 #
-# # dict={}
-# # dict['name']='sachin'
-# # dict[1]="thiw is two"
-# # dict2={'name2':'jp',2:'hola'}
-# #
-# # print(dict['name'])
-# # print(dict[1])
-# # print(dict.keys())
-# # print(dict.values())
+# dict={}
+# dict['name']='sachin'
+# dict[1]="this is two"
+# dict2={'name2':'jp',2:'hola'}
+# # #
+# # # print(dict['name'])
+# # # print(dict[1])
+# print(dict.keys())
+# print(dict.values())
 # # print(dict2)
 #
 #
@@ -49,37 +49,40 @@
 # # else:
 # #     print("wrong nunber")
 #
-# # a=201
-# # if(a<200):
-# #     print("this number is less than 100")
-# #     if(a>100):
-# #         print("this number is greater than 100")
-# # else:
-# #     print("wrong number")
+# a=99
+# if(a<200):
+#     print("this number is less than 200")
+#     if(a>100):
+#         print("this number is greater than 100")
+# else:
+#     print("wrong number")
 #
 #
 # # ****************************for loop*******************
 #
-# # a=[1,2,3,4,5,6,7,8,9,10]
-# # for i,num in enumerate(a):
-# #     print(i)
-# #     print(num)
+# a=[10,20,30,40,50,60,70,80,90,100]
+# for i,num in enumerate(a):
+#     print(i)
+#     print(num)
+
+
+# a=-3.6
+# math.ceil(a)
+# print(a)
+
+
+# a="hello"
+# b="e"
+# # print(a.capitalize())
+# print(a.count(b))
+
+# def printme(hulu):
+#     print(hulu)
+#     return
 #
-# # a=-3.6
-# # math.ceil(a)
-# # print(a)
-#
-# # a="hello"
-# # b="l"
-# # # print(a.capitalize())
-# # print(a.count(b))
-#
-# # def printme(str):
-# #     print(str)
-# #     return
-# #
-# # printme("holla jjjj")
-#
+# printme("holla jjjj")
+
+
 # l2=['hello','hola','namestey']
 # # p=seracht.serach_k(l2,'hello') #st can be use in place of searcht
 # p=serach_k(l2,'hello')
