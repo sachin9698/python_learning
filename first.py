@@ -18,14 +18,14 @@
 # #print(d * 10)
 # #print(d + str(e))
 #
-# #names=["sachin","dk","suraj"]
-# #names.append("jp")
-# #ages=[12,13,14,15]
-# #print(names[0] +" "+ names[1])
-# #names.extend(ages)
-# #names.remove("dk")
-# #print(names)
-# #print(names, ages)
+# names=["sachin","dk","suraj"]
+# names.append("jp")
+# ages=[12,13,14,15]
+# print(names[0] +" "+ names[1])
+# names.extend(ages)
+# names.remove("dk")
+# print(names)
+# print(names, ages)
 #
 # #list=[1,2,3,4,5,6,7,8,9]
 #
@@ -37,15 +37,15 @@
 # #else:
 # #    print("absolute no of ",n," is",n)
 #
-# #name=input("number :")
-# #if name=="sachin":
-# #    print("enterd name is ",name)
-# #elif name=="jp":
-# #    print("enterd name is ",name)
-# #elif name=="ishant":
-# #    print("enterd name is ",name)
-# #else:
-# #    print("enterd name is invalid")
+# name=input("number :")
+# if name=="sachin":
+#    print("enterd name is ",name)
+# elif name=="jp":
+#    print("enterd name is ",name)
+# elif name=="ishant":
+#    print("enterd name is ",name)
+# else:
+#    print("enterd name is invalid")
 #
 #
 # # name="animals"
@@ -60,10 +60,10 @@
 #     # print("hola")
 #
 #
-# # if (9<3 or 6<5):
-# #     print("yes")
-# # else :
-# #     print("no")
+# if (1<3 and 3<5):
+#     print("yes")
+# else :
+#     print("no")
 #
 # # while loop
 #
@@ -86,9 +86,9 @@
 #
 # # functions
 #
-# # def hello(x):
-# #     print("hello ",x)
-# # hello("papa")
+# def hello(x):
+#     print("hello",x)
+# hello("papa")
 #
 # # def sum(x,y):
 # #     return(x+y)
@@ -97,49 +97,49 @@
 #
 # # default perametrers
 #
-# # def sscore(name="tom",score=0):
-# #     print(name,"scored",score, "marks")
-# # sscore()
-# # sscore("sachin",100)
-# # sscore("dk")
-# # sscore(score=99)
+# def sscore(name="tom",score=0):
+#     print(name,"scored",score, "marks")
+# sscore()
+# sscore("sachin",100)
+# sscore("dk")
+# sscore(score=99)
 #
 # # multiple perametrers
-# # def sscore(name,*score):
-# #     print(name)
-# #     print(score)
-# # sscore("rohan",12,45,7,8)
-#
+# def sscore(name,*score):
+#     print(name)
+#     print(score)
+# sscore("rohan",12,45,7,8)
+
 #
 # # classes
-# # class Person:
-# #     def setname(self,fname,lname):
-# #         self.fname=fname
-# #         self.lname=lname
-# #     def showname(self):
-# #         print(self.fname, self.lname)
-# #
-# # pp=Person()
-# # pp.setname("rahul","khanna")
-# # pp.showname()
+# class Person:
+#     def setname(self,fname,lname):
+#         self.fname=fname
+#         self.lname=lname
+#     def showname(self):
+#         print(self.fname, self.lname)
+#
+# pp=Person()
+# pp.setname("rahul","khanna")
+# pp.showname()
 #
 #
 # # constructors and destructors
 #
-# # class Person:
-# #     def __init__(self):
-# #         print("class is created")
-# #     def __del__(self):
-# #         print("class obeject is destoyed")
-# #     def setname(self,fname,lname):
-# #         self.fname=fname
-# #         self.lname=lname
-# #     def showname(self):
-# #         print(self.fname, self.lname)
-# #
-# # pp=Person()
-# # pp.setname("rahul","khanna")
-# # pp.showname()
+# class Person:
+#     def __init__(self):
+#         print("class is created")
+#     def __del__(self):
+#         print("class obeject is destoyed")
+#     def setname(self,fname,lname):
+#         self.fname=fname
+#         self.lname=lname
+#     def showname(self):
+#         print(self.fname, self.lname)
+#
+# pp=Person()
+# pp.setname("rahul","khanna")
+# pp.showname()
 #
 #
 # # inheritance in classes
@@ -155,4 +155,4 @@
 # chlid1=Child()
 # print(chlid1.value2)
 
-print("hello sachin, welcome back")
+# print("hello sachin, welcome back")

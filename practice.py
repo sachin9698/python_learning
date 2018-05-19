@@ -63,13 +63,19 @@
 #
 # print("complete")
 
-a=10
-while a>0:
-    a=a-1
-    if(a==5):
-        break
-    print(a)
+# a=10
+# while a>0:
+#     a=a-1
+#     if(a==5):
+#         break
+#     print(a)
+#
+#
+#
+# print("complete")
 
+def sum1(x,y,z):
+    return x+y+z
 
-
-print("complete")
+sum=sum1(1, 2, 3)
+print(sum)
