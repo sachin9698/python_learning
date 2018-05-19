@@ -12,6 +12,7 @@
 # hululu=["sachin","kumar",123,89,True]
 # print(hululu[2:5])
 
+
 # dict={"name":"harsh",'sur':"titoria"}
 # # dict['name']="harsh"
 # # dict['sur']="titoria"
@@ -74,8 +75,8 @@
 #
 # print("complete")
 
-def sum1(x,y,z):
-    return x+y+z
-
-sum=sum1(1, 2, 3)
-print(sum)
+# def sum1(x,y,z):
+#     return x+y+z
+#
+# sum=sum1(1, 2, 3)
+# print(sum)
